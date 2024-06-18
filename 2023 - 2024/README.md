@@ -13,11 +13,11 @@ We have also submitted this project to The Rookie Awards to get the game more po
 
 #### Showcasing At Events
 
-[<img alt="Rebound Rivals Showcase At GaMaYo" width=100% height=100% src="/Images/ReboundRivals_GaMaYo_05-24.jpg" "GaMaYo Showcase" >](https://www.linkedin.com/posts/jake-goodes-88714226b_the-team-and-i-had-a-brilliant-day-yesterday-activity-7199886152206536704-CRrx?utm_source=share&utm_medium=member_desktop)
+[<img alt="Rebound Rivals Showcase At GaMaYo" width=100% height=100% src="/Images/ReboundRivals_GaMaYo_05-24.jpg" title="GaMaYo Showcase" >](https://www.linkedin.com/posts/jake-goodes-88714226b_the-team-and-i-had-a-brilliant-day-yesterday-activity-7199886152206536704-CRrx?utm_source=share&utm_medium=member_desktop)
 
-[<img alt="Rebound Rivals At The Game Republic Student Showcase" width=100% height=100%  src="/Images/ReboundRivals_GameRepublic.jpg" "Game Republic Student Showcase" >](https://www.linkedin.com/posts/jake-goodes-88714226b_the-team-and-i-had-a-blast-yesterday-showcasing-activity-7204844171856072704-8LjO?utm_source=share&utm_medium=member_desktop)
+[<img alt="Rebound Rivals At The Game Republic Student Showcase" width=100% height=100%  src="/Images/ReboundRivals_GameRepublic.jpg" title="Game Republic Student Showcase" >](https://www.linkedin.com/posts/jake-goodes-88714226b_the-team-and-i-had-a-blast-yesterday-showcasing-activity-7204844171856072704-8LjO?utm_source=share&utm_medium=member_desktop)
 
-[<img alt="Rebound Rivals Submitted To Rookies" width=100% height=100% src="/Images/ReboundRivals_TheRookieAwards.jpg" "Rebound Rivals Submitted To Rookies" >](https://www.linkedin.com/posts/bradley-curtis-2b5275227_we-have-submitted-rebound-rivals-to-the-rookie-activity-7202740207253626881-dF7e?utm_source=share&utm_medium=member_desktop)
+[<img alt="Rebound Rivals Submitted To Rookies" width=100% height=100% src="/Images/ReboundRivals_TheRookieAwards.jpg" title="Rebound Rivals Submitted To Rookies" >](https://www.linkedin.com/posts/bradley-curtis-2b5275227_we-have-submitted-rebound-rivals-to-the-rookie-activity-7202740207253626881-dF7e?utm_source=share&utm_medium=member_desktop)
 
 #### Rebound Rivals Trailer
 
