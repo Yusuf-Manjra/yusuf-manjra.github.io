@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Center For Sustainable Computing at the University Of Huddersfield</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">YusufDev</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Center For Sustainable Computing</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper style1">
+						<div class="inner" align="center">
+							<h1 class="major">Center For Sustainable Computing at the University Of Huddersfield</h1>
+							<div class="box alt">
+								<div class="row gtr-uniform">
+									<div class="col-4"><span class="image fit"><img src="images/university-of-huddersfield-logo.png" alt="university-of-huddersfield-logo" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/cern-logo.png" alt="cern-logo" /></span></div>
+								</div>
+							</div>
+							<h2 id="-traccc-https-github-com-csc-huduniv-traccc-and-acts-acts-common-tracking-software-https-github-com-csc-huduniv-acts-">
+								<a href="https://github.com/CSC-HudUniv/traccc">
+									TRACCC
+								</a> 
+									and 
+								<a href="https://github.com/CSC-HudUniv/acts">
+									ACTS (ACTS Common Tracking Software) 
+								</a>
+							</h2>
+							<p>
+								I helped find block size issues in CUDA code of the project using Nvidia Nsight profiling tools with various block sizes to test performance.
+							</p>
+							<div class="table-wrapper">
+								<table class="alt">
+									<tbody>
+										<tr>
+											<td align="center">
+												<strong>Function</strong>
+											</td>
+											<td align="center">
+												<strong>Compute Throughput (%)</strong>
+											</td>
+											<td align="center">
+												<strong>Memory Throughput (%)</strong>
+											</td>
+										</tr>
+										<tr>
+											<td style="text-align:center; vertical-align:middle;">
+												<div>
+													Connect_Components
+												</div>
+											</td>
+											<td>
+												<img src="images/connect_components-Compute Throughput (%)-boxplot.png" alt="connect_components-Compute Throughput" title="Connect_Components Compute Throughput" data-position="center center" style="max-height:100%; max-width:100%;">
+											</td>
+											<td>
+												<img src="images/connect_components-Memory Throughput (%)-boxplot.png" alt="connect_components-Memory Throughput" title="Connect_Components Memory Throughput" data-position="center center" style="max-height:100%; max-width:100%;">
+											</td>
+										</tr>
+										<tr>
+											<td style="text-align:center; vertical-align:middle;">
+												<div>
+													Count_Cluster_Cells
+												</div>
+											</td>
+											<td>
+												<img src="images/count_cluster_cells-Compute Throughput (%)-boxplot.png" alt="count_cluster_cells-Compute Throughput" title="Count_Cluster_Cells Compute Throughput" data-position="center center" style="max-height:100%; max-width:100%;">
+											</td>
+											<td>
+												<img src="images/count_cluster_cells-Memory Throughput (%)-boxplot.png" alt="count_cluster_cells-Memory Throughput" title="Count_Cluster_Cells Memory Throughput" data-position="center center" style="max-height:100%; max-width:100%;">
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<p>
+								These graphs showed a problem where the memory block sizes for each kernel in the CUDA code was not optimised properly, this led to extremely low thoughput values when running the code on a GPU resulting in large potential performance losses. <br>
+								A presentation using this data and the findings that they show was presented at an ACTS Parellization Meeting was done by Minsi Chen as shown
+								<a href="https://indico.cern.ch/event/1219021/contributions/5127841/attachments/2554195/4401080/MChen-profiling-traccc-cuda-code.pdf"> here.
+								</a><br>
+								Fixes for this problem were them implemented by people working on the project creating a large performance uplift when using GPU parellization when processing data.
+							</p>
+							<h2 id="-traccc-visualise-https-github-com-yusuf-manjra-geomplot-">
+								<a href="https://github.com/Yusuf-Manjra/GeomPlot">
+									TRACCC Event Visualisation
+								</a>
+							</h2>
+							<p>
+								I created a Command Line Python Application using the Visualisation ToolKit to render the data from the ATLAS particle collider.<br>
+								The data had to be trimmed slightly to remove sections of events that occured in parts of the collider that were not on the model being used.<br>
+								This data and trimming program can be found 
+								<a href="https://github.com/Yusuf-Manjra/Placement-Work">
+									here.
+								</a><br>
+								This visulisation used the data files from the collision event and a model file of the collider to create a visual representation of where the particles were detected, this was used to help understand the movements and velocities of each particle from the event.
+							</p>
+							<p>
+								<span class="image left"><a href="https://sonarcloud.io/organizations/yusuf-manjra/projects">
+									<img src="images/sonarcloud-logo.png" alt="sonarcloud-logo" />
+								</a></span>
+								<h2><a href="https://sonarcloud.io/organizations/yusuf-manjra/projects">
+									SonarCloud Code Sustainability Profiling
+								</a></h2><br>
+								For both "traccc" and "ACTS" I created an automated system that built the projects with SonarCloud&#39;s scanner service on top.
+								This was done due to the large number of people working on it over its development leading to quite a few potential inefficiencies and potential inconsistencies.
+								The system gave us the ability to quickly find sections of code that were being repeated or common errors in the code that were created over time.
+							</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
