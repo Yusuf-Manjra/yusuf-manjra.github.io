@@ -20,7 +20,7 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="code_driven_games.html" class="active">Games Built With Code In Various Game Engines</a></li>
+						<li><a href="code_driven_games.html" class="active">Games Built With Code</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -31,54 +31,60 @@
 				<!-- Main -->
 					<section id="main" class="wrapper style1">
 						<div class="inner">
-							<h1 class="major">Games Built With Code In Various Game Engines</h1>
+							<h1 class="major">Games Built With Code</h1>
 							
 						<!-- UE4 AI FPS game -->
-							<h2>Basic Unreal Engine AI FPS Arena</h2>
-							<p>&lsquo;A basic first person target shooter with an AI opponent patrolling around and chasing you if it sees you.&rsquo;</p>
-							<p>The player has a basic gun that has 2 firing inputs, left click fires a fast moving projectile that deals 20 damage, right click fires a slow moving projectile that deals 50 damage. </br>
-							The game contains a basic map with a navmesh placed over it to allow for the AI to function. The map also contains 2 shootable objects, a physics object that bounces around the room when shot at based on the velocity of the impact and a floating orb that has 200 health and will respawn at a random position in a given radius around an initial spawn point. </br>
-							Hitting the physics object with the fast projectile gives 2 points whilst hitting it with the slow projectile gives 1 point. Destroying the orb gives 5 points. </br>
-							If the AI enemy comes into contact with the player the game will reset. The enemy AI cannot be destroyed but can be pushed around by the players slow projectile.</p>
-							<div align="center">
-								<figure>
-									<video width="1052" height="592" autoplay controls muted>
-										<source src="videos/small_ai_fps_demo.mp4" type="video/mp4">
-									</video>
-									<figcaption style="text-align: center;">In Editor Demo of AI FPS.</figcaption>
-								</figure>
+							<div id="ue4-ai-fps">
+								<h2>Basic Unreal Engine AI FPS Arena</h2>
+								<p>&lsquo;A basic first person target shooter with an AI opponent patrolling around and chasing you if it sees you.&rsquo;</p>
+								<p>The player has a basic gun that has 2 firing inputs, left click fires a fast moving projectile that deals 20 damage, right click fires a slow moving projectile that deals 50 damage. </br>
+								The game contains a basic map with a navmesh placed over it to allow for the AI to function. The map also contains 2 shootable objects, a physics object that bounces around the room when shot at based on the velocity of the impact and a floating orb that has 200 health and will respawn at a random position in a given radius around an initial spawn point. </br>
+								Hitting the physics object with the fast projectile gives 2 points whilst hitting it with the slow projectile gives 1 point. Destroying the orb gives 5 points. </br>
+								If the AI enemy comes into contact with the player the game will reset. The enemy AI cannot be destroyed but can be pushed around by the players slow projectile.</p>
+								<div align="center">
+									<figure>
+										<video width="1052" height="592" autoplay controls muted>
+											<source src="videos/small_ai_fps_demo.mp4" type="video/mp4">
+										</video>
+										<figcaption style="text-align: center;">In Editor Demo of AI FPS.</figcaption>
+									</figure>
+								</div>
+								</br>
 							</div>
-							</br>
 							
 						<!-- Unity Open CV -->
-							<h2>Obstacle Avoidance Game Using Camera Controls</h2>
-							<p>&lsquo;An obstacle avoidance game where you use coloured cards to move the player around to survive as long as possible while avoiding the walls coming towards you.&rsquo;</p>
-							<p>Grey walls are impervious and give one point for passing. The coloured walls allow you to pass through them if you are the same colour as them and will give multiple points for passing through them.</br>
-							Falling off screen will kill the player and end the game.</p>
-							<p>The game uses a dynamic-linked library that contains the functions needed to read the camera using the OpenCV library and then perform calcuations that are needed within the game such as colour and location detection.</p>
-							<div align="center">
-								<figure>
-									<video width="1052" height="592" autoplay controls muted>
-										<source src="videos/open_cv_unity_cam_demo.mp4" type="video/mp4">
-									</video>
-									<figcaption style="text-align: center;">In Editor Demo of OpenCV Controlled Game With Camera Debug.</figcaption>
-								</figure>
+							<div id="opencv-unity">
+								<h2>Obstacle Avoidance Game Using Camera Controls</h2>
+								<p>&lsquo;An obstacle avoidance game where you use coloured cards to move the player around to survive as long as possible while avoiding the walls coming towards you.&rsquo;</p>
+								<p>Grey walls are impervious and give one point for passing. The coloured walls allow you to pass through them if you are the same colour as them and will give multiple points for passing through them.</br>
+								Falling off screen will kill the player and end the game.</p>
+								<p>The game uses a dynamic-linked library that contains the functions needed to read the camera using the OpenCV library and then perform calcuations that are needed within the game such as colour and location detection.</p>
+								<div align="center">
+									<figure>
+										<video width="1052" height="592" autoplay controls muted>
+											<source src="videos/open_cv_unity_cam_demo.mp4" type="video/mp4">
+										</video>
+										<figcaption style="text-align: center;">In Editor Demo of OpenCV Controlled Game With Camera Debug.</figcaption>
+									</figure>
+								</div>
+								</br>
 							</div>
-							</br>
 							
 						<!-- Console Interface Dungeon Game -->
-							<h2>Command Line Interface Dungeon Game</h2>
-							<p>&lsquo;A dungeon exploration game interacted with through a command line interface.&rsquo;</p>
-							<p></p>
-							<div align="center">
-								<figure>
-									<video width="1052" height="592" autoplay controls muted>
-										<source src="videos/console_monk_dungeon_demo.mp4" type="video/mp4">
-									</video>
-									<figcaption style="text-align: center;">Demo of Command Line Interface Dungeon Game.</figcaption>
-								</figure>
+							<div id="cli-monk-dungeon">
+								<h2>Command Line Interface Dungeon Game</h2>
+								<p>&lsquo;A dungeon exploration game interacted with through a command line interface.&rsquo;</p>
+								<p></p>
+								<div align="center">
+									<figure>
+										<video width="1052" height="592" autoplay controls muted>
+											<source src="videos/console_monk_dungeon_demo.mp4" type="video/mp4">
+										</video>
+										<figcaption style="text-align: center;">Demo of Command Line Interface Dungeon Game.</figcaption>
+									</figure>
+								</div>
+								</br>
 							</div>
-							</br>	
 						</div>
 					</section>
 			</div>
